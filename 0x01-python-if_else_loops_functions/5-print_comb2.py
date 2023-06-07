@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for number in range(0, 100):
-    if number == 99:
-        print("{}".format(number))
+for letter in range(100):
+    if letter == 99:
+        print(letter)
     else:
-        print("{:02}".format(number), end=", ")
+        print("{:0>2d}".format(letter), end=", ")

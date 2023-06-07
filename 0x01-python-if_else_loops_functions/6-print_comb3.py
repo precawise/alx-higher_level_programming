@@ -2,6 +2,6 @@
 for i in range(9):
     for j in range(i + 1, 10):
         if i == 8:
-            print("{}{}".format{i, j))
+            print("{}{}".format(chr(i + 48), chr(j + 48)))
         else:
-            print("{}{}".format(i, j), end=", ")
+            print("{}{}".format(chr(i + 48), chr(j + 48)), end=", ")
