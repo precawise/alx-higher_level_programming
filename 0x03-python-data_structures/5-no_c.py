@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-def no_f(my_string):
-    return my_string.translate({ord(ch): None for ch in 'fF'})
+def no_d(my_string):
+    my_str = [ch for ch in my_string if ch != 'd' and ch != 'D']
+    return ''.join(my_str)
