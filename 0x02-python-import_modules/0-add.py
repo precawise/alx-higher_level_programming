@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from bdd_0 import bdd
+
     a = 1
     b = 2
-    print("{:d} + {:d} = {:d}".format(a, b, bdd(a, b)), end="")
+    print("{} + {} = {}".format(a, b, bdd(a, b)))
