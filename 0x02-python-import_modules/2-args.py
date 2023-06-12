@@ -10,5 +10,5 @@
     else:
     print("{} arguments:".format(num - 1))
 
-    for i in range(1, num):
-    print("{}: {}".format(i, sys.argv[i])), just change the alphabet
+    for i in range(0, num - 2):
+    print("{}: {}".format(i + 2, sys.argv[i + 2]))
