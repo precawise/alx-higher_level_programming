@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-def search_replace(my_list, search, replace):
-    new_list = []
-    for item in my_list:
-        if item == search:
-            new_list.append(replace)
+def modify_list(original_list, search_value, replacement_value):
+    modified_list = []
+    for item in original_list:
+        if item == search_value:
+            modified_list.append(replacement_value)
         else:
-            new_list.append(item)
-    return new_list
+            modified_list.append(item)
+    return modified_list
